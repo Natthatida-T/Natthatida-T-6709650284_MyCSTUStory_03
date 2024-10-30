@@ -19,6 +19,7 @@ nav
         }
 
         .container {
+      
           border: 1px solid #ddd;
           width: 1000px;
           margin: 100px auto;
@@ -33,7 +34,7 @@ nav
     border-radius: 10px;
   }
 .container aside{
- 
+
     flex-grow: 1;
       background: #f1f1f1;
       flex-basis: 40%;
@@ -46,6 +47,13 @@ nav
 
 
 }
+
+.grid{
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min-max(200px, 1fr));
+}
+
 #mypro {
     --size: 190px;
         width: var(--size);
@@ -95,15 +103,6 @@ nav
          justify-content: center; 
         align-items: center; 
     }
-      
-@media screen and (min-width: 680px) {
 
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-  }
-}
-  
 
 
