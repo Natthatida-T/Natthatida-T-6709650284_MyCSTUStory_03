@@ -1,4 +1,9 @@
 
+.grid{
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min-max(200px, 1fr));
+}
 
 body{
     background-color: #eee29c;
@@ -48,11 +53,7 @@ nav
 
 }
 
-.grid{
-  margin: 3rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, min-max(200px, 1fr));
-}
+
 
 #mypro {
     --size: 190px;
@@ -99,11 +100,10 @@ nav
 
 
       .video-container { 
-        
+
         display: flex; 
          justify-content: center; 
         align-items: center; 
     }
-
 
 
