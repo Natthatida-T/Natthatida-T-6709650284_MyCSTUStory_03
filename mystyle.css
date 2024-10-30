@@ -9,7 +9,7 @@ nav
             margin: auto;
             padding: 0;
             padding: 15px;
-            width: 1000px;
+            width: 900px;
             height: 40px;
             background-color: #f1f1f1;
             border: 1px solid #ddd ;
@@ -18,26 +18,28 @@ nav
           
         }
 
-.container {
-    border: 1px solid #ddd;
-    width: 1000px;
-    margin: 100px auto;
-    padding: 0;
-    padding: 15px;
-    position: relative;
-    
-  }
+        .container {
+          border: 1px solid #ddd;
+          width: 1000px;
+          margin: 100px auto;
+          padding: 0;
+          padding: 15px;
+          position: relative;
+          
+        }
   aside, main {
+    
     padding: 15px;
     border-radius: 10px;
   }
 .container aside{
+ 
     flex-grow: 1;
       background: #f1f1f1;
       flex-basis: 40%;
   }
 .container main {
-
+  
     flex-grow: 10;
     background: #f1f1f1;
     margin-left: 1%;
@@ -94,5 +96,14 @@ nav
         align-items: center; 
     }
       
+@media screen and (min-width: 680px) {
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+  
 
 
